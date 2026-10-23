@@ -1,5 +1,12 @@
 # ComfyUI Load Image (with filename, HEIC)
 
+> [!IMPORTANT]
+> **This repo has moved.** The node is now part of **[ComfyUI-RulZnodes](https://github.com/speedyrulz/ComfyUI-RulZnodes)**,
+> together with Load Image Batch (Simple) and Mask Intelligent Crop. This repo is archived and won't get updates.
+>
+> To switch, delete this folder from `custom_nodes` and install ComfyUI-RulZnodes. The node ID is unchanged,
+> so existing workflows keep working.
+
 A `LoadImage` replacement that also loads `.heic` / `.heif` files and outputs the filename.
 
 **Outputs:** `image`, `mask`, `filename` (name without directory or extension).
